@@ -1,0 +1,40 @@
+
+{
+"Mathematiciens": [
+  {
+    "nom": "Pythagore",
+    "annee_naissance": "env. 570 av. J.-C.",
+    "annee_mort": "env. 495 av. J.-C.",
+    "decouverte_celebre": "Theoreme de Pythagore",
+    "exemple": "a2 + b2 = c2 dans un triangle rectangle"
+  },
+  {
+    "nom": "Isaac Newton",
+    "annee_naissance": "1643",
+    "annee_mort": "1727",
+    "decouverte_celebre": "Calcul differentiel et integral",
+    "exemple": "La derivee de x2 est 2x"
+  },
+  {
+    "nom": "Carl Friedrich Gauss",
+    "annee_naissance": "1777",
+    "annee_mort": "1855",
+    "decouverte_celebre": "Theoreme fondamental de l'algebre",
+    "exemple": "Tout polynome non constant a coefficients complexes admet au moins une racine complexe"
+  },
+  {
+    "nom": "Evariste Galois",
+    "annee_naissance": "1811",
+    "annee_mort": "1832",
+    "decouverte_celebre": "Theorie de Galois",
+    "exemple": "Etude des symetries des solutions d'equations polynomiales"
+  },
+  {
+    "nom": "Sophie Germain",
+    "annee_naissance": "1776",
+    "annee_mort": "1831",
+    "decouverte_celebre": "Nombres premiers de Germain",
+    "exemple": "11 est un premier de Germain car 2x11+1 = 23, un autre nombre premier"
+  }
+]
+}
