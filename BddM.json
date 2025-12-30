@@ -6,7 +6,7 @@
    "Siecle": "IXe",
    "Nationalite": "Persan",
    "Domaine": "Algebre",
-   "Decouverte": "Fondements de l algebre",
+   "Decouverte": "Fondements algebre",
    "Formule": "ax2+bx+c=0"
  },
  {
@@ -86,7 +86,7 @@
    "Siecle": "XVIIIe",
    "Nationalite": "Anglais",
    "Domaine": "Analyse",
-   "Decouverte": "Developpement de Taylor",
+   "Decouverte": "Developpement Taylor",
    "Formule": "f(x)=f(a)+"
  },
  {
@@ -236,7 +236,7 @@
    "Siecle": "XVIIe",
    "Nationalite": "Suisse",
    "Domaine": "Probabilites",
-   "Decouverte": "Loi des grands nombres",
+   "Decouverte": "Loi grands nombres",
    "Formule": "Sn/n"
  },
  {
@@ -256,7 +256,7 @@
    "Siecle": "XVIIIe",
    "Nationalite": "Ecossais",
    "Domaine": "Analyse",
-   "Decouverte": "Approximation factorielle",
+   "Decouverte": "Approx factorielle",
    "Formule": "n! approx"
  },
  {
@@ -290,7 +290,7 @@
    "Formule": "Somme sin cos"
  },
  {
-   "Nom": "Joseph Louis Lagrange",
+   "Nom": "JosephLouis Lagrange",
    "Naissance": 1736,
    "Mort": "1813",
    "Siecle": "XVIIIe",
@@ -366,7 +366,7 @@
    "Siecle": "XXe",
    "Nationalite": "Francais",
    "Domaine": "Probabilites",
-   "Decouverte": "Processus stochastiques",
+   "Decouverte": "Sctochastic Process",
    "Formule": "Brownien"
  },
  {
