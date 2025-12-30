@@ -1,40 +1,402 @@
-
-{
-"Mathematiciens": [
-  {
-    "nom": "Pythagore",
-    "annee_naissance": "env. 570 av. J.-C.",
-    "annee_mort": "env. 495 av. J.-C.",
-    "decouverte_celebre": "Theoreme de Pythagore",
-    "exemple": "a2 + b2 = c2 dans un triangle rectangle"
-  },
-  {
-    "nom": "Isaac Newton",
-    "annee_naissance": "1643",
-    "annee_mort": "1727",
-    "decouverte_celebre": "Calcul differentiel et integral",
-    "exemple": "La derivee de x2 est 2x"
-  },
-  {
-    "nom": "Carl Friedrich Gauss",
-    "annee_naissance": "1777",
-    "annee_mort": "1855",
-    "decouverte_celebre": "Theoreme fondamental de l'algebre",
-    "exemple": "Tout polynome non constant a coefficients complexes admet au moins une racine complexe"
-  },
-  {
-    "nom": "Evariste Galois",
-    "annee_naissance": "1811",
-    "annee_mort": "1832",
-    "decouverte_celebre": "Theorie de Galois",
-    "exemple": "Etude des symetries des solutions d'equations polynomiales"
-  },
-  {
-    "nom": "Sophie Germain",
-    "annee_naissance": "1776",
-    "annee_mort": "1831",
-    "decouverte_celebre": "Nombres premiers de Germain",
-    "exemple": "11 est un premier de Germain car 2x11+1 = 23, un autre nombre premier"
-  }
+[
+ {
+   "nom": "Pythagore",
+   "annee_naissance": "env. 570 av. J.-C.",
+   "annee_mort": "env. 495 av. J.-C.",
+   "siècle": "VIe av. J.-C.",
+   "nationalité": "Grec",
+   "domaine": "Géométrie",
+   "decouverte_celebre": "Théorème de Pythagore",
+   "formule": "a²+b²=c²"
+ },
+ {
+   "nom": "Euclide",
+   "annee_naissance": "env. 300 av. J.-C.",
+   "annee_mort": "?",
+   "siècle": "IIIe av. J.-C.",
+   "nationalité": "Grec",
+   "domaine": "Géométrie",
+   "decouverte_celebre": "Géométrie euclidienne",
+   "formule": "Somme des angles d’un triangle = 180°"
+ },
+ {
+   "nom": "Archimède",
+   "annee_naissance": "env. 287 av. J.-C.",
+   "annee_mort": "212 av. J.-C.",
+   "siècle": "IIIe av. J.-C.",
+   "nationalité": "Grec",
+   "domaine": "Géométrie",
+   "decouverte_celebre": "Aire du cercle",
+   "formule": "A=πr²"
+ },
+ {
+   "nom": "Al-Khwarizmi",
+   "annee_naissance": "env. 780",
+   "annee_mort": "env. 850",
+   "siècle": "IXe",
+   "nationalité": "Persan",
+   "domaine": "Algèbre",
+   "decouverte_celebre": "Fondements de l’algèbre",
+   "formule": "ax²+bx+c=0"
+ },
+ {
+   "nom": "René Descartes",
+   "annee_naissance": "1596",
+   "annee_mort": "1650",
+   "siècle": "XVIIe",
+   "nationalité": "Français",
+   "domaine": "Géométrie",
+   "decouverte_celebre": "Géométrie analytique",
+   "formule": "y=mx+p"
+ },
+ {
+   "nom": "Pierre de Fermat",
+   "annee_naissance": "1607",
+   "annee_mort": "1665",
+   "siècle": "XVIIe",
+   "nationalité": "Français",
+   "domaine": "Théorie des nombres",
+   "decouverte_celebre": "Dernier théorème de Fermat",
+   "formule": "xⁿ+yⁿ≠zⁿ pour n>2"
+ },
+ {
+   "nom": "Blaise Pascal",
+   "annee_naissance": "1623",
+   "annee_mort": "1662",
+   "siècle": "XVIIe",
+   "nationalité": "Français",
+   "domaine": "Probabilités",
+   "decouverte_celebre": "Triangle de Pascal",
+   "formule": "C(n,k)=n!/(k!(n−k)!)"
+ },
+ {
+   "nom": "Isaac Newton",
+   "annee_naissance": "1643",
+   "annee_mort": "1727",
+   "siècle": "XVIIe",
+   "nationalité": "Anglais",
+   "domaine": "Analyse",
+   "decouverte_celebre": "Calcul différentiel",
+   "formule": "d(x²)/dx=2x"
+ },
+ {
+   "nom": "Gottfried Wilhelm Leibniz",
+   "annee_naissance": "1646",
+   "annee_mort": "1716",
+   "siècle": "XVIIe",
+   "nationalité": "Allemand",
+   "domaine": "Analyse",
+   "decouverte_celebre": "Calcul intégral",
+   "formule": "∫x dx = x²/2"
+ },
+ {
+   "nom": "Jacob Bernoulli",
+   "annee_naissance": "1655",
+   "annee_mort": "1705",
+   "siècle": "XVIIe",
+   "nationalité": "Suisse",
+   "domaine": "Probabilités",
+   "decouverte_celebre": "Loi des grands nombres",
+   "formule": "lim(n→∞) Sn/n = p"
+ },
+ {
+   "nom": "James Stirling",
+   "annee_naissance": "1692",
+   "annee_mort": "1770",
+   "siècle": "XVIIIe",
+   "nationalité": "Écossais",
+   "domaine": "Analyse",
+   "decouverte_celebre": "Approximation factorielle",
+   "formule": "n! ≈ √(2πn)(n/e)ⁿ"
+ },
+ {
+   "nom": "Brook Taylor",
+   "annee_naissance": "1685",
+   "annee_mort": "1731",
+   "siècle": "XVIIIe",
+   "nationalité": "Anglais",
+   "domaine": "Analyse",
+   "decouverte_celebre": "Développement de Taylor",
+   "formule": "f(x)=f(a)+f’(a)(x−a)+…"
+ },
+ {
+   "nom": "Leonhard Euler",
+   "annee_naissance": "1707",
+   "annee_mort": "1783",
+   "siècle": "XVIIIe",
+   "nationalité": "Suisse",
+   "domaine": "Analyse",
+   "decouverte_celebre": "Analyse moderne",
+   "formule": "e^{iπ}+1=0"
+ },
+ {
+   "nom": "Gabriel Cramer",
+   "annee_naissance": "1704",
+   "annee_mort": "1752",
+   "siècle": "XVIIIe",
+   "nationalité": "Suisse",
+   "domaine": "Algèbre",
+   "decouverte_celebre": "Règle de Cramer",
+   "formule": "x=det(Ax)/det(A)"
+ },
+ {
+   "nom": "Alexandre Théophile Vandermonde",
+   "annee_naissance": "1735",
+   "annee_mort": "1796",
+   "siècle": "XVIIIe",
+   "nationalité": "Français",
+   "domaine": "Algèbre",
+   "decouverte_celebre": "Déterminant de Vandermonde",
+   "formule": "∏(xj−xi)"
+ },
+ {
+   "nom": "Joseph-Louis Lagrange",
+   "annee_naissance": "1736",
+   "annee_mort": "1813",
+   "siècle": "XVIIIe",
+   "nationalité": "Italien",
+   "domaine": "Analyse",
+   "decouverte_celebre": "Calcul des variations",
+   "formule": "L=T−V"
+ },
+ {
+   "nom": "Gaspard Monge",
+   "annee_naissance": "1746",
+   "annee_mort": "1818",
+   "siècle": "XVIIIe",
+   "nationalité": "Français",
+   "domaine": "Géométrie",
+   "decouverte_celebre": "Géométrie descriptive",
+   "formule": "Projection orthogonale"
+ },
+ {
+   "nom": "Pierre-Simon de Laplace",
+   "annee_naissance": "1749",
+   "annee_mort": "1827",
+   "siècle": "XVIIIe",
+   "nationalité": "Français",
+   "domaine": "Probabilités",
+   "decouverte_celebre": "Probabilités classiques",
+   "formule": "P(A∩B)=P(A)P(B)"
+ },
+ {
+   "nom": "Adrien-Marie Legendre",
+   "annee_naissance": "1752",
+   "annee_mort": "1833",
+   "siècle": "XVIIIe",
+   "nationalité": "Français",
+   "domaine": "Analyse",
+   "decouverte_celebre": "Polynômes de Legendre",
+   "formule": "Pn(x)"
+ },
+ {
+   "nom": "Jean Le Rond d’Alembert",
+   "annee_naissance": "1717",
+   "annee_mort": "1783",
+   "siècle": "XVIIIe",
+   "nationalité": "Français",
+   "domaine": "Analyse",
+   "decouverte_celebre": "Équation des ondes",
+   "formule": "∂²u/∂t²=c²∂²u/∂x²"
+ },
+ {
+   "nom": "Étienne Bézout",
+   "annee_naissance": "1730",
+   "annee_mort": "1783",
+   "siècle": "XVIIIe",
+   "nationalité": "Français",
+   "domaine": "Algèbre",
+   "decouverte_celebre": "Identité de Bézout",
+   "formule": "ax+by=pgcd(a,b)"
+ },
+ {
+   "nom": "Denis Diderot",
+   "annee_naissance": "1713",
+   "annee_mort": "1784",
+   "siècle": "XVIIIe",
+   "nationalité": "Français",
+   "domaine": "Maths appliquées",
+   "decouverte_celebre": "Travaux analytiques",
+   "formule": "—"
+ },
+ {
+   "nom": "Carl Friedrich Gauss",
+   "annee_naissance": "1777",
+   "annee_mort": "1855",
+   "siècle": "XVIIIe",
+   "nationalité": "Allemand",
+   "domaine": "Algèbre",
+   "decouverte_celebre": "Théorème fondamental de l’algèbre",
+   "formule": "deg(P)≥1 ⇒ racine"
+ },
+ {
+   "nom": "Jean-Baptiste Joseph Fourier",
+   "annee_naissance": "1768",
+   "annee_mort": "1830",
+   "siècle": "XVIIIe",
+   "nationalité": "Français",
+   "domaine": "Analyse",
+   "decouverte_celebre": "Séries de Fourier",
+   "formule": "f(x)=Σ an sin(nx)+bn cos(nx)"
+ },
+ {
+   "nom": "Sophie Germain",
+   "annee_naissance": "1776",
+   "annee_mort": "1831",
+   "siècle": "XIXe",
+   "nationalité": "Française",
+   "domaine": "Théorie des nombres",
+   "decouverte_celebre": "Nombres premiers de Germain",
+   "formule": "2p+1 premier"
+ },
+ {
+   "nom": "Augustin-Louis Cauchy",
+   "annee_naissance": "1789",
+   "annee_mort": "1857",
+   "siècle": "XIXe",
+   "nationalité": "Français",
+   "domaine": "Analyse",
+   "decouverte_celebre": "Limites rigoureuses",
+   "formule": "lim f(x)"
+ },
+ {
+   "nom": "Siméon Denis Poisson",
+   "annee_naissance": "1781",
+   "annee_mort": "1840",
+   "siècle": "XIXe",
+   "nationalité": "Français",
+   "domaine": "Probabilités",
+   "decouverte_celebre": "Loi de Poisson",
+   "formule": "P(X=k)=λ^k e^(−λ)/k!"
+ },
+ {
+   "nom": "Évariste Galois",
+   "annee_naissance": "1811",
+   "annee_mort": "1832",
+   "siècle": "XIXe",
+   "nationalité": "Français",
+   "domaine": "Algèbre",
+   "decouverte_celebre": "Théorie de Galois",
+   "formule": "Groupes de permutations"
+ },
+ {
+   "nom": "Johann Peter Gustav Lejeune Dirichlet",
+   "annee_naissance": "1805",
+   "annee_mort": "1859",
+   "siècle": "XIXe",
+   "nationalité": "Allemand",
+   "domaine": "Analyse",
+   "decouverte_celebre": "Fonctions périodiques",
+   "formule": "∫|f|² < ∞"
+ },
+ {
+   "nom": "Bernhard Riemann",
+   "annee_naissance": "1826",
+   "annee_mort": "1866",
+   "siècle": "XIXe",
+   "nationalité": "Allemand",
+   "domaine": "Analyse",
+   "decouverte_celebre": "Géométrie de Riemann",
+   "formule": "∫f(x)dx"
+ },
+ {
+   "nom": "Henri Poincaré",
+   "annee_naissance": "1854",
+   "annee_mort": "1912",
+   "siècle": "XIXe",
+   "nationalité": "Français",
+   "domaine": "Topologie",
+   "decouverte_celebre": "Systèmes dynamiques",
+   "formule": "États récurrents"
+ },
+ {
+   "nom": "Charles-Jean de La Vallée Poussin",
+   "annee_naissance": "1866",
+   "annee_mort": "1962",
+   "siècle": "XIXe",
+   "nationalité": "Belge",
+   "domaine": "Analyse",
+   "decouverte_celebre": "Nombres premiers",
+   "formule": "π(x) ~ x/ln(x)"
+ },
+ {
+   "nom": "Jacques Hadamard",
+   "annee_naissance": "1865",
+   "annee_mort": "1963",
+   "siècle": "XIXe",
+   "nationalité": "Français",
+   "domaine": "Analyse",
+   "decouverte_celebre": "Inégalités",
+   "formule": "|det(A)|≤∏||Ai||"
+ },
+ {
+   "nom": "David Hilbert",
+   "annee_naissance": "1862",
+   "annee_mort": "1943",
+   "siècle": "XIXe",
+   "nationalité": "Allemand",
+   "domaine": "Logique",
+   "decouverte_celebre": "Espaces de Hilbert",
+   "formule": "⟨x,y⟩"
+ },
+ {
+   "nom": "Émile Borel",
+   "annee_naissance": "1871",
+   "annee_mort": "1956",
+   "siècle": "XIXe",
+   "nationalité": "Français",
+   "domaine": "Probabilités",
+   "decouverte_celebre": "Mesure de Borel",
+   "formule": "μ(E)"
+ },
+ {
+   "nom": "Jean Dieudonné",
+   "annee_naissance": "1906",
+   "annee_mort": "1992",
+   "siècle": "XXe",
+   "nationalité": "Français",
+   "domaine": "Algèbre",
+   "decouverte_celebre": "Algèbre moderne",
+   "formule": "Structures abstraites"
+ },
+ {
+   "nom": "Paul Lévy",
+   "annee_naissance": "1886",
+   "annee_mort": "1971",
+   "siècle": "XXe",
+   "nationalité": "Français",
+   "domaine": "Probabilités",
+   "decouverte_celebre": "Processus stochastiques",
+   "formule": "Mouvement brownien"
+ },
+ {
+   "nom": "Alan Turing",
+   "annee_naissance": "1912",
+   "annee_mort": "1954",
+   "siècle": "XXe",
+   "nationalité": "Britannique",
+   "domaine": "Informatique",
+   "decouverte_celebre": "Machine de Turing",
+   "formule": "Algorithme"
+ },
+ {
+   "nom": "Laurent Schwartz",
+   "annee_naissance": "1915",
+   "annee_mort": "2002",
+   "siècle": "XXe",
+   "nationalité": "Français",
+   "domaine": "Analyse",
+   "decouverte_celebre": "Distributions",
+   "formule": "δ(x)"
+ },
+ {
+   "nom": "Benoît Mandelbrot",
+   "annee_naissance": "1924",
+   "annee_mort": "2010",
+   "siècle": "XXe",
+   "nationalité": "Français",
+   "domaine": "Maths appliquées",
+   "decouverte_celebre": "Fractales",
+   "formule": "D≈log(N)/log(1/r)"
+ }
 ]
-}
